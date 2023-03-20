@@ -16,4 +16,4 @@ Open `index.html` in your browser — no build step required.
 
 ## License
 MIT
-<!-- updated: 2026-03-24-04 -->
+<!-- updated: 2023-03-20-r01 -->
