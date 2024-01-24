@@ -62,7 +62,8 @@ footer h3 {
 }
 
 img {
-  width: 300px;
+  width: 350px;
+  margin-right: 20px;
 }
 
 .Get-Started {
@@ -107,5 +108,62 @@ h3 {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  padding: 20px;
+}
+
+.icon {
+  width: 30px;
+  margin-top: 60px;
+}
+
+#fb-icon {
+  width: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.email {
+  color: #db7a4e;
+  font-size: 12px;
+}
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.one,
+.two,
+.three {
+  color: #db7a4e;
+  font-size: 12px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hig {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  margin: 20px;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+footer {
   padding: 20px;
 }
