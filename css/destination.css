@@ -1,0 +1,43 @@
+/* Home Page Styles */
+#hero {
+  background-color: #fefaf5;
+  text-align: left;
+}
+
+#hero h2 {
+  color: #335576;
+}
+
+#get-started-button {
+  background-color: #db7a4e;
+}
+
+/* Recommendations Section Styles */
+#recommendations {
+  color: #335576;
+}
+
+.destination-card {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  /* Add additional styles as needed */
+}
+
+.destination-card:hover {
+  border-color: #db7a4e;
+}
+
+/* Destination Page Styles */
+.destination-title {
+  /* Add styles for destination title */
+}
+
+#destination-image {
+  /* Add styles for destination image */
+}
+
+.itinerary-day {
+  background-color: #fefaf5;
+  /* Add additional styles as needed */
+}
