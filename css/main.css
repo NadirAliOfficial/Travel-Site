@@ -1,0 +1,111 @@
+/* Reset and General Styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+/* Navigation Bar Styles */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.logo {
+  color: #335576;
+  margin-left: 30px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.main-nav a {
+  color: #335576;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+  text-decoration: underline;
+  color: #db7a4e;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #fefaf5;
+  color: #335576;
+}
+
+footer h3 {
+  color: #db7a4e;
+}
+
+.div-one {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  background-color: #fefaf5;
+}
+
+img {
+  width: 300px;
+}
+
+.Get-Started {
+  background-color: #db7a4e;
+  border: 1px solid #db7a4e;
+  border-radius: 40px;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.heading {
+  padding: 40px;
+  text-align: left;
+}
+
+p {
+  margin-top: 30px;
+  color: #335576;
+}
+
+h3 {
+  font-size: 30px;
+  color: #335576;
+}
+.recommendations {
+  padding: 40px;
+}
+.Rec {
+  color: #335576;
+}
+.hig {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.203);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.21);
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
