@@ -1,1 +1,33 @@
 /* Add global styles here */
+.navigation {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  position: relative;
+}
+
+.navigation a:active,
+.navigation a:focus {
+  font-weight: bold;
+}
+
+.navigation a:active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #db7a4e;
+}

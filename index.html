@@ -11,12 +11,13 @@
   <body>
     <header>
       <nav class="main-nav">
-        <h2 class="logo">Travel Site</h2>
-        <ul>
-          <li><a href="index.html">Home</a></li>
+        <h2 class="logo"><a href="/index.html">Travel Site</a></h2>
+
+        <ul class="navigation">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="pages/hawaii.html">Hawaii</a></li>
           <li><a href="pages/iceland.html">Iceland</a></li>
           <li><a href="pages/greece.html">Greece</a></li>
-          <li><a href="pages/hawaii.html">Hawaii</a></li>
         </ul>
       </nav>
     </header>
@@ -29,7 +30,7 @@
           </h3>
           <p>
             Don’t let your dreams be just dreams. Experience the world by
-            booking a vacation with us now.
+            booking a <br />vacation with us now.
           </p>
           <button class="Get-Started">Get Started</button>
         </div>
@@ -42,19 +43,25 @@
       <h2 class="Rec">Recommendations</h2>
       <div class="images">
         <div class="image-container">
-          <img class="hig" src="assests/images/hawaii.jpg" alt="" />
+          <a href="pages/hawaii.html">
+            <img class="hig" src="assests/images/hawaii.jpg" alt=""
+          /></a>
           <div class="text-overlay">Hawaii</div>
         </div>
 
         <!-- Add similar containers for other images -->
 
         <div class="image-container">
-          <img class="hig" src="assests/images/iceland.jpg" alt="" />
+          <a href="pages/iceland.html">
+            <img class="hig" src="assests/images/iceland.jpg" alt="" />
+          </a>
           <div class="text-overlay">Iceland</div>
         </div>
 
         <div class="image-container">
-          <img class="hig" src="assests/images/greece.jpg" alt="" />
+          <a href="pages/greece.html">
+            <img class="hig" src="assests/images/greece.jpg" alt="" />
+          </a>
           <div class="text-overlay">Greece</div>
         </div>
       </div>
