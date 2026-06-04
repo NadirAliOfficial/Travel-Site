@@ -1,98 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Discover Pakistan with Travel Site — explore Lahore, Hunza, and Swat with curated itineraries and travel packages." />
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/destination.css" />
-    <title>Travel Pakistan | Explore the Land of Beauty</title>
-  </head>
-  <body>
-    <header>
-      <nav class="main-nav">
-        <h2 class="logo"><a href="index.html">Travel Pakistan</a></h2>
-        
-        <ul class="navigation">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pages/lahore.html">Lahore</a></li>
-          <li><a href="pages/hunza.html">Hunza</a></li>
-          <li><a href="pages/swat.html">Swat</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover Pakistan's most breathtaking destinations — Lahore, Hunza Valley, and Swat. Explore curated itineraries and travel packages." />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Travel Pakistan — Explore the Land of Beauty</title>
+</head>
+<body>
 
-    <main>
-      <div class="div-one">
-        <div class="heading">
-          <h3>Pakistan —<br />Where Every Journey Tells a Story</h3>
-          <p>From the ancient streets of Lahore to the glaciers of Hunza, Pakistan is one of the world's most breathtaking destinations. Let us plan your perfect trip.</p>
-          <button class="Get-Started">Explore Now</button>
+  <header class="site-header">
+    <a href="index.html" class="logo-link">
+      <div class="logo-icon">PK</div>
+      <span class="logo-text">Travel Pakistan</span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="pages/lahore.html">Lahore</a></li>
+        <li><a href="pages/hunza.html">Hunza</a></li>
+        <li><a href="pages/swat.html">Swat</a></li>
+        <li><a href="#contact" class="nav-cta">Plan My Trip</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">✦ Pakistan's Finest Destinations</div>
+      <h1>Discover the<br/>Heart of Pakistan</h1>
+      <p>From Mughal grandeur in Lahore to the glacial peaks of Hunza and the emerald valleys of Swat — Pakistan is unlike anywhere on Earth.</p>
+      <div class="hero-buttons">
+        <a href="#destinations" class="btn btn-primary">Explore Destinations ↓</a>
+        <a href="#why" class="btn btn-outline">Why Pakistan?</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="stat-num">3</div><div class="stat-label">Destinations</div></div>
+        <div><div class="stat-num">5K+</div><div class="stat-label">Km of Trails</div></div>
+        <div><div class="stat-num">5</div><div class="stat-label">8000m+ Peaks</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations" id="destinations">
+    <div class="section-header">
+      <p class="section-tag">Where to go</p>
+      <h2 class="section-title">Top Destinations</h2>
+      <p class="section-subtitle">Hand-picked locations that showcase Pakistan's staggering diversity — history, nature, and culture all in one journey.</p>
+    </div>
+    <div class="dest-grid">
+      <div class="dest-card">
+        <div class="dest-img-wrap">
+          <img src="https://images.unsplash.com/photo-1597149241098-56f3e8ef7ef6?auto=format&fit=crop&w=900&q=80" alt="Badshahi Mosque and Lahore Fort — the cultural heart of Pakistan" loading="lazy" />
+          <span class="dest-badge">Culture &amp; History</span>
         </div>
-        <div class="img">
-          <img src="assests/images/hero.png" alt="Beautiful landscape of Pakistan — mountains, valleys and culture" />
+        <div class="dest-body">
+          <h3>Lahore</h3>
+          <p>Pakistan's cultural capital — home to Mughal architecture, vibrant food streets, and centuries of history.</p>
+          <div class="dest-meta">
+            <span>📍 Punjab</span>
+            <span>🗓 3 Days</span>
+            <span>🏛 Heritage</span>
+          </div>
+          <a href="pages/lahore.html" class="dest-link">Explore Lahore →</a>
         </div>
       </div>
-    </main>
-
-    <div class="recommendations">
-      <h2 class="Rec">Top Destinations</h2>
-      <div class="images">
-        <div class="image-container">
-          <a href="pages/lahore.html">
-            <img class="hig" src="assests/images/hawaii.jpg" alt="Lahore — the cultural capital of Pakistan" />
-          </a>
-          <div class="text-overlay">Lahore</div>
+      <div class="dest-card">
+        <div class="dest-img-wrap">
+          <img src="https://images.unsplash.com/photo-1596466707867-fbc34d77ee1e?auto=format&fit=crop&w=900&q=80" alt="Hunza Valley with Rakaposhi peak and Attabad Lake" loading="lazy" />
+          <span class="dest-badge">Nature &amp; Adventure</span>
         </div>
-        <div class="image-container">
-          <a href="pages/hunza.html">
-            <img class="hig" src="assests/images/iceland.jpg" alt="Hunza Valley — heaven on earth in northern Pakistan" />
-          </a>
-          <div class="text-overlay">Hunza</div>
+        <div class="dest-body">
+          <h3>Hunza Valley</h3>
+          <p>Heaven on Earth — glacial lakes, ancient forts, and the world's most dramatic mountain scenery.</p>
+          <div class="dest-meta">
+            <span>📍 Gilgit-Baltistan</span>
+            <span>🗓 3 Days</span>
+            <span>🏔 Mountains</span>
+          </div>
+          <a href="pages/hunza.html" class="dest-link">Explore Hunza →</a>
         </div>
-        <div class="image-container">
-          <a href="pages/swat.html">
-            <img class="hig" src="assests/images/greece.jpg" alt="Swat Valley — the Switzerland of Pakistan" />
-          </a>
-          <div class="text-overlay">Swat</div>
+      </div>
+      <div class="dest-card">
+        <div class="dest-img-wrap">
+          <img src="https://images.unsplash.com/photo-1609197100072-59716f5f7d0e?auto=format&fit=crop&w=900&q=80" alt="Swat Valley lush green mountains and rivers" loading="lazy" />
+          <span class="dest-badge">Valleys &amp; Scenery</span>
+        </div>
+        <div class="dest-body">
+          <h3>Swat Valley</h3>
+          <p>The Switzerland of Pakistan — rolling green hills, Buddhist ruins, ski resorts, and crystal rivers.</p>
+          <div class="dest-meta">
+            <span>📍 KPK</span>
+            <span>🗓 3 Days</span>
+            <span>🌿 Nature</span>
+          </div>
+          <a href="pages/swat.html" class="dest-link">Explore Swat →</a>
         </div>
       </div>
     </div>
-    
-    <footer>
-      <div class="footer">
-        <div class="Contact">
-          <h1 class="contact">Contact</h1>
-          <p class="email">Email</p>
-          <p class="email-written">info@travelsite.com</p>
-        </div>
-        <div class="Hours">
-          <h1 class="hours">Hours</h1>
-          <div class="info">
-            <div class="info-one">
-              <p class="one">MONDAY–FRIDAY</p>
-              <p class="time">9:00 AM – 5:00 PM</p>
-            </div>
-            <div class="info-two">
-              <p class="two">SATURDAY</p>
-              <p class="time">1:00 PM – 4:00 PM</p>
-            </div>
-            <div class="info-three">
-              <p class="three">SUNDAY</p>
-              <p class="time">Closed</p>
-            </div>
-          </div>
-        </div>
-        <div class="Social">
-          <h1 class="social">Social</h1>
-          <div class="icons">
-            <a href="#" aria-label="Instagram"><img class="icon" src="assests/Icons/icon-instagram.png" alt="Instagram" /></a>
-            <a href="#" aria-label="Facebook"><img class="icon" id="fb-icon" src="assests/Icons/icon-facebook.png" alt="Facebook" /></a>
-            <a href="#" aria-label="Twitter"><img class="icon" src="assests/Icons/icon-twitter.png" alt="Twitter" /></a>
-          </div>
-        </div>
+  </section>
+
+  <section class="why-section" id="why">
+    <div class="section-header">
+      <p class="section-tag">Why choose Pakistan</p>
+      <h2 class="section-title">A World Within One Country</h2>
+      <p class="section-subtitle">Pakistan holds more natural and cultural wonders than most people can imagine.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">🏔</div>
+        <h4>World's Greatest Mountains</h4>
+        <p>Five of the world's 14 eight-thousanders are in Pakistan, including K2 — the world's hardest peak.</p>
       </div>
-    </footer>
-  </body>
+      <div class="why-card">
+        <div class="why-icon">🏛</div>
+        <h4>5,000 Years of History</h4>
+        <p>From the ancient Indus Valley civilization at Mohenjo-daro to Mughal masterpieces in Lahore.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🍛</div>
+        <h4>Incredible Food Culture</h4>
+        <p>Pakistani cuisine is ranked among the world's finest — from Lahori nihari to Hunza's dried fruits.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🌿</div>
+        <h4>Unspoiled Natural Beauty</h4>
+        <p>Deserts, glaciers, rainforests, and beaches — Pakistan has more ecosystems than almost any country.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner" id="contact">
+    <h2>Ready to Explore Pakistan?</h2>
+    <p>Let us craft the perfect itinerary for your dream trip.</p>
+    <a href="mailto:info@travelsite.com" class="btn btn-primary">Get in Touch →</a>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo-link">
+          <div class="logo-icon">PK</div>
+          <span class="logo-text" style="color:white">Travel Pakistan</span>
+        </a>
+        <p>Curated travel experiences across Pakistan's most extraordinary destinations.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Destinations</h4>
+        <ul>
+          <li><a href="pages/lahore.html">Lahore</a></li>
+          <li><a href="pages/hunza.html">Hunza Valley</a></li>
+          <li><a href="pages/swat.html">Swat Valley</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Guides</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@travelsite.com">info@travelsite.com</a></li>
+          <li><a href="#">Mon–Fri 9am–5pm</a></li>
+          <li><a href="#">Sat 1pm–4pm</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Travel Pakistan. All rights reserved.</span>
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="Instagram"><img src="assests/Icons/icon-instagram.png" alt="Instagram" /></a>
+        <a href="#" class="social-link" aria-label="Facebook"><img src="assests/Icons/icon-facebook.png" alt="Facebook" /></a>
+        <a href="#" class="social-link" aria-label="Twitter"><img src="assests/Icons/icon-twitter.png" alt="Twitter" /></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
 </html>
