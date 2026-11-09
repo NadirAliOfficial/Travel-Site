@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*~
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Node.js (if ever added)
+node_modules/
+
+# Logs
+npm-debug.log*
